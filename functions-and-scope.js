@@ -67,7 +67,7 @@ function cumLaude(grades) {
     }
     return countCumLaude;
 }
-// Controleer het antwoord
+// Controleer de functie
 console.log(cumLaude(grades));
 console.log(cumLaude([6, 4, 5]));
 console.log(cumLaude([8, 9, 4, 6, 10]));
@@ -138,7 +138,7 @@ function averageGrade(grades) {
 
     return average;
 }
-// Controleer het antwoord
+// Controleer de functie
 console.log(averageGrade(grades));
 console.log(averageGrade([6, 4, 5]));
 console.log(averageGrade([8, 9, 4, 6, 10]));
@@ -194,7 +194,7 @@ function highestGrade(grades) {
     // Zet het hoogste cijfer op 0
     let setHighestGrade = 0;
 
-// For loop door de cijfers
+    // For loop door de cijfers
     for (let i = 0; i <= grades.length - 1; i++) {
 
         // Hoogste nummer controleren en eventueel opnieuw opslaan
@@ -204,7 +204,7 @@ function highestGrade(grades) {
     }
     return setHighestGrade;
 }
-// Controleer het antwoord
+// Controleer de functie
 console.log(highestGrade(grades));
 console.log(highestGrade([6, 4, 5]));
 console.log(highestGrade([8, 9, 4, 6, 10]));
